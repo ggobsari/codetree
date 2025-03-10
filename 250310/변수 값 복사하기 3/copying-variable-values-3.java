@@ -7,5 +7,8 @@ public class Main {
         a = c;
         a = a + c;
         b = b - c;
+        System.out.print(a);
+        System.out.print(b);
+        System.out.print(c);
     }
 }
