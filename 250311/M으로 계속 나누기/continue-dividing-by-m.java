@@ -9,6 +9,9 @@ public class Main {
         // Please write your code here.
         System.out.println(N);
         while (N != 0){
+            if (N / M == 0){
+                break;
+            }
             N /= M;
             System.out.println(N);
         }
