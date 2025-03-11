@@ -8,8 +8,8 @@ public class Main {
         int n = sc.nextInt();
 
         for (int i = 1; i <= 5; i++){
-            n *= i;
-            System.out.print(n + " ");
+            int result = n * i;
+            System.out.print(result + " ");
         }
     }
 }
