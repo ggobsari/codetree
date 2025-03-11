@@ -4,6 +4,6 @@ public class Main {
         double weight = 13;
         double rate = 0.165f;
 
-        System.out.printf(weight + " * " + rate + " = %.6f", weight * rate);
+        System.out.printf(weight + " * %.6f", rate + " = %.6f", weight * rate);
     }
 }
