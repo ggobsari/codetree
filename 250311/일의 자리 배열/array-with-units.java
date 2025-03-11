@@ -16,8 +16,8 @@ public class Main {
             arr[i] = (arr[i - 2] + arr[i - 1]) % 10;
         }
 
-        for (int a : arr){
-            System.out.print(a + " ");
+        for (int result : arr){
+            System.out.print(result + " ");
         }
     }
 }
