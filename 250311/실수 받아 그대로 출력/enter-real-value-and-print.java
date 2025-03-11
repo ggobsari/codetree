@@ -6,6 +6,6 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         double n = sc.nextDobule();
 
-        System.out.prinf("%.2f", n);
+        System.out.printf("%.2f", n);
     }
 }
