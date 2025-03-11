@@ -5,6 +5,6 @@ public class Main {
         double radio = 0.165;
         double result = weight * radio;
 
-        System.out.printf(weight + " * %.6f", radio + " = %.6f", result);
+        System.out.printf("%d * %.6f = %.6f", weight, radio, result);
     }
 }
