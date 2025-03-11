@@ -9,7 +9,7 @@ public class Main {
         int b = sc.nextInt();
         int c = sc.nextInt();
 
-        Integer[] arr = {a, b, c};
+        int arr[] = {a, b, c};
 
         Arrays.sort();
 
