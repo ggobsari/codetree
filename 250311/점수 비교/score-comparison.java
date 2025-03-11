@@ -6,9 +6,8 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         int aMath = sc.nextInt();
-        int bMath = sc.nextInt();
-
         int aEnglish = sc.nextInt();
+        int bMath = sc.nextInt();
         int bEnglish = sc.nextInt();
 
         if (aMath > bMath && aEnglish > bEnglish){
