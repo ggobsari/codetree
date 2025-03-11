@@ -7,10 +7,10 @@ public class Main {
 
         int a = sc.nextInt();
 
-        if (a % 13 == 0 && a % 19 == 0){
-            System.out.print(True);
+        if (a % 13 == 0 || a % 19 == 0){
+            System.out.print("True");
         } else{
-            System.out.print(False);
+            System.out.print("False");
         }
 
 
