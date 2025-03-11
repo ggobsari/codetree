@@ -15,9 +15,9 @@ public class Main {
         }
 
         if (a == b){
-            System.out.prinln(1);
+            System.out.println(1);
         }else{
-            System.out.prinln(0);
+            System.out.println(0);
         }
     }
 }
