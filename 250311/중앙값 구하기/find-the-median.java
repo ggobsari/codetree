@@ -11,7 +11,7 @@ public class Main {
 
         int arr[] = {a, b, c};
 
-        Arrays.sort();
+        Arrays.sort(arr);
 
         System.out.print(arr[1]);
 
