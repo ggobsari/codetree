@@ -14,10 +14,10 @@ public class Main {
         String[] reverse = new String[10];
 
         for (int i = 0; i < 10; i++){
-            reverse[i] = (arr.length - 1) - i;
+            reverse[i] = arr[(arr.length - 1) - i];
         }
 
-        for (int a : reverse){
+        for (String a : reverse){
             System.out.print(a);
         }
     }
