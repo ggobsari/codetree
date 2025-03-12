@@ -10,10 +10,13 @@ public class Main {
 
         for (int i = 0; i < 10; i++){
             int a = sc.nextInt();
-            if (a % 3 == 0){
+            if (a % 3 == 0 && a % 5 == 0){
                 three++;
-            } else if (a % 5 == 0){
                 five++;
+            } else if (a % 3 == 0){
+                three++;
+            } else fi (a % 5 == 0){
+                five;
             }
         }
 
