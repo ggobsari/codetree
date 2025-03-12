@@ -10,7 +10,7 @@ public class Main {
         int result = 0;
 
         for (int i = 1; i <= n; i++){
-            if (n % 2 == 0 || n % 3 == 0 || n % 5 == 0){
+            if (i % 2 == 0 || i % 3 == 0 || i % 5 == 0){
                 result++;
             }
         }
