@@ -10,9 +10,9 @@ public class Main {
         String b = sc.next();
 
         if (a.length() > b.length()){
-            System.out.print(a + " " + a.length);
+            System.out.print(a + " " + a.length());
         } else if (b.length() > a.length()){
-            System.out.print(b + " " + b.length);
+            System.out.print(b + " " + b.length());
         } else if (a.length() == b.length){
             System.out.print("same");
         }
