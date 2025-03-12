@@ -11,7 +11,7 @@ public class Main {
 
         String[] arr = {"apple", "banana", "grape", "blueberry", "orange"};
         for (int i = 0; i < 5; i++){
-            if (arr[i].substring(2, 3).equal(a) || arr[i].substring(3,4).equal(a)){
+            if (arr[i].substring(2, 3).equals(a) || arr[i].substring(3,4).equals(a)){
                 System.out.println(arr[i]);
                 sum++;
             }
