@@ -15,7 +15,7 @@ public class Main {
                 five++;
             } else if (a % 3 == 0){
                 three++;
-            } else fi (a % 5 == 0){
+            } else if (a % 5 == 0){
                 five++;
             }
         }
