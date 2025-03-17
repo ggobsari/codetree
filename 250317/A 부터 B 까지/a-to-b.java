@@ -10,7 +10,7 @@ public class Main {
         System.out.print(a + " ");
 
         while(true){
-            if (a >= b){
+            if (a > b){
                 break;
             }
 
