@@ -6,21 +6,17 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
+        int result = 0;
 
         System.out.print(a + " ");
-
-        while(a > 0){
-            if (a > b){
-                break;
-            }
-
-            if (a % 2 == 1){
-                a *= 2;
-            } else if (a % 2 == 0){
-                a += 3;
-            }
-
-            System.out.print(a + " ");
+        for (int i = a; i <= b;) {
+            if (i % 2 == 0)
+                i += 3;
+            else
+                i *= 2;
+            
+            if (i <= b)
+                System.out.print(i + " ");
         }
     }
 }
