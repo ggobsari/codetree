@@ -8,10 +8,10 @@ public class Main {
         int end = sc.nextInt();
 
         int result = 0;
+        int cnt = 0;
 
         for (int i = start; i <= end; i++){
             for (int j = 1; j <= i; j++){
-                int cnt = 0;
                 if (i % j == 0){
                     cnt++;
                 }
@@ -19,6 +19,7 @@ public class Main {
             if (cnt == 3){
                 result++;
             }
+            cnt = 0;
         }
 
         System.out.print(result);
