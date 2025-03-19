@@ -10,7 +10,7 @@ public class Main {
         for (int i = 1; i <= n; i++){
             int sum = 1;
             for (int j = 1; j <= i; j++){
-                System.out.print(sum);
+                System.out.print(sum + " ");
                 sum++;
             }
             System.out.println();
