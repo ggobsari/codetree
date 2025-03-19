@@ -11,7 +11,7 @@ public class Main {
         for (int i = 0; i < n; i++){
             int a = sc.nextInt();
             int b = sc.nextInt();
-            for (int j = a; j <= b; i++){
+            for (int j = a; j <= b; j++){
                 if (j % 2 == 0){
                     sum += j;
                 }
