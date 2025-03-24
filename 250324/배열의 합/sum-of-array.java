@@ -10,9 +10,8 @@ public class Main {
             for (int j = 0; j < 4; j++){                
                 int num = sc.nextInt();
                 total += num;
-                System.out.print(total);
             }
-            System.out.println();
+            System.out.println(total);
         }
     }
 }
