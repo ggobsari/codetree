@@ -9,7 +9,7 @@ public class Main {
             for (int j = 0; j < 4; j++){
                 int total = 0;
                 int num = sc.nextInt();
-                total += num
+                total += num;
                 System.out.print(total);
             }
             System.out.println();
