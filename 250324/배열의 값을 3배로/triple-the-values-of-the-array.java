@@ -8,7 +8,7 @@ public class Main {
         for (int i = 0; i < 3; i++){
             for (int j = 0; j < 3; j++){
                 int num = sc.nextInt();
-                System.out.print(num + " ");
+                System.out.print((num * 3) + " ");
             }
             System.out.println();
         }
