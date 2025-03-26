@@ -4,6 +4,6 @@ public class Main {
         int a = 3;
         char b = 'c';
 
-        System.out.printf("%d...%s", a, b);
+        System.out.printf("%d...%c", a, b);
     }
 }
