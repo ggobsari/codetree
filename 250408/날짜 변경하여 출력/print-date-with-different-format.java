@@ -7,7 +7,7 @@ public class Main {
 
         String c = sc.next();
 
-        String[] str = c.split(".");
+        String[] str = c.split("\\.");
 
         System.out.print(str[1] + "-" + str[2] + "-" + str[0]);
     }
