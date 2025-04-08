@@ -9,6 +9,6 @@ public class Main {
 
         String[] str = c.split(":");
 
-        System.out.print(((int)str[0] + 1) + ":" + str[1]);
+        System.out.print((Integer.parseInt(str[0]) + 1) + ":" + str[1]);
     }
 }
