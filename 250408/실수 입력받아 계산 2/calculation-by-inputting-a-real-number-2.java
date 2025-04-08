@@ -7,7 +7,7 @@ public class Main {
 
         double a = sc.nextDouble();
 
-        double result = a * 1.5;
+        double result = a + 1.5;
 
         System.out.printf("%.2f", result);
     }
