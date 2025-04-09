@@ -8,9 +8,9 @@ public class Main {
         int h = sc.nextInt();
         int w = sc.nextInt();
 
-        int b = w / ((h / 100) * (h / 100))
+        int b = w / ((h / 100) * (h / 100));
 
-        System.out.println(b)
+        System.out.println(b);
 
         if (b >= 25){
             System.out.println("Obesity");
