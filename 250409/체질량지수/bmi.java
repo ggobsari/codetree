@@ -8,7 +8,7 @@ public class Main {
         int h = sc.nextInt();
         int w = sc.nextInt();
 
-        int b = (1000 * w) / (h * h);
+        int b = (10000 * w) / (h * h);
 
         System.out.println(b);
 
