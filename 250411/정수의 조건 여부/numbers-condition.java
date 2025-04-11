@@ -10,7 +10,7 @@ public class Main {
         if (a >= 113){
             System.out.println(1);
         } else {
-            System.out.printf(0);
+            System.out.print(0);
         }
     }
 }
