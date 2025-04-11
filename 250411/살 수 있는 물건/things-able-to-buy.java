@@ -5,7 +5,7 @@ public class Main {
         // Please write your code here.
         Scanner sc = new Scanner(System.in);
 
-        int n = sc.nextInt());
+        int n = sc.nextInt();
         
         if (n >= 3000){
             System.out.print("book");
