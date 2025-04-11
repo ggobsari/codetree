@@ -9,9 +9,9 @@ public class Main {
         int b = sc.nextInt();
 
         if (a > b){
-            System.out.println(a*b);
+            System.out.println(a * b);
         } else {
-            System.out.print(b%a);
+            System.out.print(b / a);
         }
     }
 }
