@@ -12,11 +12,11 @@ public class Main {
 
         int result = 0;
 
-        if (a >= b && a <= c){
+        if (a >= b && a <= c && b <= c){
             result = a;
-        } else if (b >= a && b <= c){
+        } else if (b >= a && b <= c && a <= c){
             result = b;
-        } else if (c >= a && c <= b){
+        } else if (c >= a && c <= b && a <= b){
             result = c;
         }
 
