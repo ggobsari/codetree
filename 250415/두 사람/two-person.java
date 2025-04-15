@@ -7,13 +7,13 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         int aAge = sc.nextInt();
-        int aGender = sc.nextInt();
+        String aGender = sc.next();
         int bAge = sc.nextInt();
-        int bGender = sc.nextInt();
+        String bGender = sc.next();
 
-        if (aAge >= 19 && aGender.equal("M")){
+        if (aAge >= 19 && aGender.equals("M")){
             System.out.print(1);
-        } else if (bAge >= 19 && bGender.equal("M")){
+        } else if (bAge >= 19 && bGender.equals("M")){
             System.out.print(1);
         } else {
             System.out.print(0);
