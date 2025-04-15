@@ -7,10 +7,11 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         int a = sc.nextInt();
+        int b = sc.nextInt();
 
-        if (a >= 95){
+        if (a >= 95 && b >= 90){
             System.out.print(100000);
-        } else if (a >= 90){
+        } else if (a >= 90 && b >= 90){
             System.out.print(50000);
         } else {
             System.out.print(0);
