@@ -10,16 +10,10 @@ public class Main {
         int b = sc.nextInt();
         int c = sc.nextInt();
 
-        int result = 0;
+        int[] arr = {a, b, c};
 
-        if (a >= b && a <= c && b <= c){
-            result = a;
-        } else if (b >= a && b <= c && a <= c){
-            result = b;
-        } else if (c >= a && c <= b && a <= b){
-            result = c;
-        }
+        Arrays.sort(arr);
 
-        System.out.print(result);
+        System.out.print(arr[1]);
     }
 }
