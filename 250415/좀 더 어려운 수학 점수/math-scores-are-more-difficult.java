@@ -6,10 +6,10 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        int aEnglish = sc.nextInt();
         int aMath = sc.nextInt();
-        int bEnglish = sc.nextInt();
+        int aEnglish = sc.nextInt();
         int bMath = sc.nextInt();
+        int bEnglish = sc.nextInt();
 
         if (aMath > bMath){
             System.out.print("A");
