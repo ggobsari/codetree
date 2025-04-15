@@ -18,7 +18,7 @@ public class Main {
                 result = 28;
             }
         } else if (n % 2 == 0 && n > 7){
-            result = 31
+            result = 31;
         } else if (n % 2 == 1 && n > 7){
             result = 30;
         }
