@@ -12,6 +12,8 @@ public class Main {
             for (int i = 0; i < b; i++){
                 System.out.print(a);
             }
+        } else {
+            System.out.print(0);
         }
         
     }
