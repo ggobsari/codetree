@@ -8,11 +8,11 @@ public class Main {
         String c = sc.next();
         int n = sc.nextInt();
 
-        if (c.equals('A')){
+        if (c.equals("A")){
             for (int i = 1; i <= n; i++){
                 System.out.print(i + " ");
             }
-        } else if (c.equals('D')){
+        } else if (c.equals("D")){
             for (int i = n; i >=1; i--){
                 System.out.print(i + " ");
             }
