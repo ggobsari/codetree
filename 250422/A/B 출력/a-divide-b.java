@@ -8,7 +8,7 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        double result = a / b;
+        double result = (double) a / b;
 
         System.out.printf("%.21f", result);
     }
