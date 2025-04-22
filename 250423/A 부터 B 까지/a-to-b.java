@@ -11,6 +11,9 @@ public class Main {
         System.out.print(a + " ");
 
         while (a <= b){
+            if (a > b){
+                break;
+            }
             if (a % 2 == 1){
                 a *= 2;
                 System.out.print(a + " ");
