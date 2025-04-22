@@ -8,8 +8,15 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        double result = (double) a / b;
+        int result = a / b;
 
-        System.out.printf("%.21f", result);
+        System.out.print(result + ".");
+
+        a %= b;
+
+        for (int i = 0; i < 20; i++){
+            a *= 10;
+            System.out.print(a / b);
+        }
     }
 }
