@@ -8,8 +8,8 @@ public class Main {
         int n = sc.nextInt();
 
         while(n >= 1){
-            System.out.print(i + " ");
-            i--;
+            System.out.print(n + " ");
+            n--;
         }
     }
 }
