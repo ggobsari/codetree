@@ -9,7 +9,9 @@ public class Main {
         int a = sc.nextInt();
 
         while(b >= a){
-            System.out.print(b + " ");
+            if (b % 2 == 0){
+                System.out.print(b = " ");
+            }
             b--;
         }
     }
