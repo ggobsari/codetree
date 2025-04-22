@@ -12,11 +12,11 @@ public class Main {
         int n = sc.nextInt();
 
         for (int i = n; i >= 1; i--){
-            if (n % 12 == 0){
+            if (i % 12 == 0){
                 toilet++;
-            } else if (n % 3 == 0){
+            } else if (i % 3 == 0){
                 corridor++;
-            } else if (n % 2 == 0){
+            } else if (i % 2 == 0){
                 classroom++;
             }
         }
