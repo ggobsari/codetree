@@ -8,9 +8,10 @@ public class Main {
         int n = sc.nextInt();
 
         for (int i = 1; i <= n; i++){
+            String str = String.valueOf(i);
             if (i % 3 == 0){
                 System.out.print(0 + " ");
-            } else if (i % 10 == 3 || i % 10 == 6 || i % 10 == 9){
+            } else if (str.contains("3") || str.contains("6") || str.contains("9")){
                 System.out.print(0 + " ");
             } else {
                 System.out.print(i + " ");
