@@ -17,6 +17,7 @@ public class Main {
         for (int i = 0; i < 20; i++){
             a *= 10;
             System.out.print(a / b);
+            a %= b;
         }
     }
 }
