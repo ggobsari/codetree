@@ -3,7 +3,7 @@ public class Main {
         // Please write your code here.
         int i = 10;
         while (i < 26){
-            System.out.print(i);
+            System.out.print(i + " ");
             i++;
         }
     }
