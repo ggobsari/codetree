@@ -6,7 +6,7 @@ public class Main {
 
         int i = 10;
 
-        while(i <= n){
+        while(i <= 26){
             System.out.print(i + " ");
             i += 2;
         }
