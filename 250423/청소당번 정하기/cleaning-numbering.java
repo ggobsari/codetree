@@ -9,7 +9,7 @@ public class Main {
         int corridor = 0;
         int toilet = 0;
 
-        for (int i = n; i >= 0; i--){
+        for (int i = n; i >= 1; i--){
             if (n % 12 == 0){
                 toilet++;
             } else if (n % 3 == 0){
