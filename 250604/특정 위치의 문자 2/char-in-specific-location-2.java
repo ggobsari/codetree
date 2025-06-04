@@ -10,7 +10,7 @@ public class Main {
             String s = sc.next();
 
             if (i == 2 || i == 5 || i == 8){
-                System.out.print(n + " ");
+                System.out.print(s + " ");
             }
         }
         
