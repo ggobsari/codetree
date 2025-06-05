@@ -11,7 +11,7 @@ public class Main {
         System.out.print(n1 + " " + n2 + " ");
 
         for (int i = 0; i < 8; i++){
-            int nextIndex = n2 + 2(n1);
+            int nextIndex = n2 + 2 * (n1);
 
             n1 = n2;
             n2 = nextIndex;
