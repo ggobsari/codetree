@@ -15,7 +15,7 @@ public class Main {
 
             System.out.print(nextIndex + " ");
 
-            if (nextIndex > 100){
+            if (nextIndex >= 100){
                 break;
             }
 
