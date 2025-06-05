@@ -10,7 +10,7 @@ public class Main {
 
         System.out.print(n1 + " " + n2 + " ");
 
-        for (int i = 0; i < n; i++){
+        for (int i = 0; i < 10; i++){
             int num = n1 + n2;
             n2 = num;
             n1 = n2;
