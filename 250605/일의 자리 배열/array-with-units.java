@@ -12,8 +12,9 @@ public class Main {
 
         for (int i = 0; i < 8; i++){
             int num = n1 + n2;
-            n2 = num;
+            
             n1 = n2;
+            n2 = num;
 
             System.out.print(num + " ");
         }
