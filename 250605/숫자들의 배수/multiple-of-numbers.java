@@ -21,7 +21,7 @@ public class Main {
 
             System.out.print(result + " ");
 
-            if (n % 5 == 0){
+            if (result % 5 == 0){
                 fiveMulti++;
             }
 
