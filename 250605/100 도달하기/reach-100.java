@@ -10,6 +10,8 @@ public class Main {
         int i1 = 1;
         int i2 = n;
 
+        System.out.print(i1 + " " + i2 + " ");
+
         while (true){
             int nextIndex = i1 + i2;
 
