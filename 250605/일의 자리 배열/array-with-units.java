@@ -16,7 +16,7 @@ public class Main {
             n1 = n2;
             n2 = num;
 
-            System.out.print(num + " ");
+            System.out.print(num % 10 + " ");
         }
     }
 }
