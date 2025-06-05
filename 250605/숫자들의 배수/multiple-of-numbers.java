@@ -19,9 +19,10 @@ public class Main {
 
             if (n % 5 == 0){
                 fiveMulti++;
-                if (fiveMulti == 2){
-                    break;
-                }
+            }
+
+            if (fiveMulti == 2){
+                break;
             }
 
         }
