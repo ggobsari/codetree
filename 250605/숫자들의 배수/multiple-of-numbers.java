@@ -12,14 +12,14 @@ public class Main {
         int fiveMulti = 0;
 
         while (true){
+            if (fiveMulti == 2){
+                break;
+            }
+
             n *= cnt;
             cnt++;
 
             System.out.print(n + " ");
-
-            if (fiveMulti == 2){
-                break;
-            }
 
             if (n % 5 == 0){
                 fiveMulti++;
