@@ -16,10 +16,10 @@ public class Main {
                 break;
             }
 
-            n *= cnt;
+            int result = n * cnt;
             cnt++;
 
-            System.out.print(n + " ");
+            System.out.print(result + " ");
 
             if (n % 5 == 0){
                 fiveMulti++;
