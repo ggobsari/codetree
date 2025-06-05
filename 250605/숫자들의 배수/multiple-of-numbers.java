@@ -17,12 +17,12 @@ public class Main {
 
             System.out.print(n + " ");
 
-            if (n % 5 == 0){
-                fiveMulti++;
-            }
-
             if (fiveMulti == 2){
                 break;
+            }
+
+            if (n % 5 == 0){
+                fiveMulti++;
             }
 
         }
