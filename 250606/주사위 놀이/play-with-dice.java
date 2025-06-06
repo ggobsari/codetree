@@ -19,7 +19,7 @@ public class Main {
         }
 
         for (int i = 1; i <= result.length; i++){
-            System.out.println(i + "-" + result[i - 1]);
+            System.out.println(i + " - " + result[i - 1]);
         }
         
     }
