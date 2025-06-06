@@ -7,7 +7,7 @@ public class Main {
 
         int n = sc.nextInt();
 
-        int[] arr = new int[9]
+        int[] arr = new int[9];
 
         for (int i = 0; i < n; i++){
             int element = sc.nextInt();
@@ -15,6 +15,7 @@ public class Main {
             for (int j = 1; j <= 9; j++){
                 if (j == element){
                     arr[j - 1] += 1;
+                    continue;
                 }
             }
         }
