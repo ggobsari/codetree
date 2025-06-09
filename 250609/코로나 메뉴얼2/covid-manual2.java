@@ -17,7 +17,7 @@ public class Main {
                 if (n >= 37){
                     arr[0] += 1;
                     cnt++;
-                } else if (n == 36.5){
+                } else{
                     arr[2] += 1;
                 }
             }
@@ -25,7 +25,7 @@ public class Main {
             if (s.equals("N")){
                 if (n >= 37){
                     arr[1] += 1;
-                } else if (n == 36.5){
+                } else{
                     arr[3] += 1;
                 }
             }
