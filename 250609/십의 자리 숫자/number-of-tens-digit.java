@@ -24,7 +24,7 @@ public class Main {
         }
 
         for (int i = 0; i < arr.length; i++){
-            System.out.printf("%d - %d", i + 1, arr[i]);
+            System.out.printf("%d - %d\n", i + 1, arr[i]);
         }
         
     }
