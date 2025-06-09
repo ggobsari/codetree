@@ -16,7 +16,7 @@ public class Main {
 
             A = A / B;
 
-            if (A < 1){
+            if (A <= 1){
                 break;
             }
         }
