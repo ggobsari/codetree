@@ -5,7 +5,7 @@ public class Main {
         // Please write your code here.
         Scanner sc = new Scanner(System.in);
 
-        char[] c = {'L', 'E', 'B', 'R', 'O', 'S'};
+        char[] c = new char[]{'L', 'E', 'B', 'R', 'O', 'S'};
 
         int idx = -1;
 
