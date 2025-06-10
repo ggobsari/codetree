@@ -20,20 +20,15 @@ public class Main {
 
             if (q1 == 1){
                 System.out.println(arr[q2 - 1]);
-            } else if (q1 == 2){
-                int idx = -1;
-
-                for (int j = 0; j < arr.length; j++){
-                    if (arr[j] == q2){
+            } else if (q1 == 2) {
+                int idx = 0;
+                for (int j = 0; j < arr.length; j++) {
+                    if (arr[j] == q2) {
                         idx = j + 1;
-                        System.out.println(idx);
                         break;
                     }
                 }
-
-                if (idx == -1){
-                    System.out.println(0);
-                }
+                System.out.println(idx);
             } else if (q1 == 3){
                 int q3 = sc.nextInt();
 
