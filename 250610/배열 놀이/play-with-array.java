@@ -37,8 +37,8 @@ public class Main {
             } else if (q1 == 3){
                 int q3 = sc.nextInt();
 
-                for (int i = q2 - 1; i < q3; i++){
-                    System.out.print(arr[i] + " ");
+                for (int j = q2 - 1; j < q3; j++){
+                    System.out.print(arr[j] + " ");
                 }
             }
         }
