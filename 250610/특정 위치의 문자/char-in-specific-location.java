@@ -4,24 +4,18 @@ public class Main {
     public static void main(String[] args) {
         // Please write your code here.
         Scanner sc = new Scanner(System.in);
-
-        String[] c = {"L", "E", "B", "R", "O", "S"};
-
-        int idx = -1;
-
-        String s = sc.next();
-
-        for (int i = 0; i < c.length; i++){
-            if (s.eqauls(c[i])){
-                idx = i;
-                break;
+        char [] arr=new char[]{'L','E','B','R','O','S'};
+        char a = sc.next().charAt(0);
+        int x = -1;
+        for (int i =0; i<6;i++){
+            if(arr[i]==a){
+                x=i;
             }
         }
-
-        if (idx != -1){
-            System.out.print(idx);
-        } else {
-            System.out.print("None");
+        if (x==-1){
+            System.out.println("None");
+        }else{
+            System.out.println(x);
         }
     }
 }
