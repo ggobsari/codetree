@@ -12,7 +12,7 @@ public class Main {
         String s = sc.next();
 
         for (int i = 0; i < c.length; i++){
-            if (c[i].eqauls(s)){
+            if (s.eqauls(c[i])){
                 idx = i;
                 break;
             }
