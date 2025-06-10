@@ -5,7 +5,7 @@ public class Main {
         // Please write your code here.
         Scanner sc = new Scanner(System.in);
 
-        char[] c = new char[]{'L', 'E', 'B', 'R', 'O', 'S'};
+        char[] c = {'L', 'E', 'B', 'R', 'O', 'S'};
 
         int idx = -1;
 
@@ -18,10 +18,10 @@ public class Main {
             }
         }
 
-        if (idx != -1){
-            System.out.print(idx);
-        } else {
-            System.out.print("None");
-        }
+        // if (idx != -1){
+        //     System.out.print(idx);
+        // } else {
+        //     System.out.print("None");
+        // }
     }
 }
