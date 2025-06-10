@@ -20,21 +20,27 @@ public class Main {
 
             if (q1 == 1){
                 System.out.println(arr[q2 - 1]);
-            } else if (q1 == 2) {
-                int idx = 0;
-                for (int j = 0; j < arr.length; j++) {
-                    if (arr[j] == q2) {
+            } else if (q1 == 2){
+                int idx = -1;
+
+                for (int j = 0; j < arr.length; j++){
+                    if (arr[j] == q2){
                         idx = j + 1;
+                        System.out.println(idx);
                         break;
                     }
                 }
-                System.out.println(idx);
+
+                if (idx == -1){
+                    System.out.println(0);
+                }
             } else if (q1 == 3){
                 int q3 = sc.nextInt();
 
                 for (int j = q2 - 1; j < q3; j++){
                     System.out.print(arr[j] + " ");
                 }
+                System.out.println();
             }
         }
     }
