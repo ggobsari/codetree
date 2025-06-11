@@ -34,7 +34,7 @@ public class Main {
                 }
                 
                 // arr1과 arr2가 일치하지 않을때
-                if(arr1[i + j] != arr2[j]) {
+                if(n1Arr[i + j] != n2Arr[j]) {
                     success = false;
                     break;
                 }
