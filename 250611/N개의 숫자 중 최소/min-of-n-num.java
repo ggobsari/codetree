@@ -17,6 +17,6 @@ public class Main {
             }
         }
 
-        System.out.print(max);
+        System.out.print(min);
     }
 }
