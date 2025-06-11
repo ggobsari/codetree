@@ -19,7 +19,7 @@ public class Main {
             if (arr[i] == 2){
                 idx++;
                 if (idx == 3){
-                    System.out.print(i);
+                    System.out.print(i + 1);
                     break;
                 }
             }
