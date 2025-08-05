@@ -18,7 +18,8 @@ public class Main {
             arr.add(num);
         }
 
-        arr.sort(Comparator.naturalOrder());
+                Collections.sort(arr);
+
 
         System.out.println(arr.get(0) + " " + arr.get(arr.size() - 1));
     }
