@@ -6,7 +6,7 @@ public class Main {
         // Please write your code here.
         Scanner sc = new Scanner(System.in);
 
-        ArrayList<Integer>() arr = new ArrayList<>();
+        ArrayList<Integer> arr = new ArrayList<>();
 
         while (true){
             int num = sc.nextInt();
